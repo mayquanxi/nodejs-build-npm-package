@@ -3,7 +3,7 @@ pipeline {
 		label 'ubuntu18_jenkins_slave01'
 	}
 	options {}
-	enviroment {}
+	environment {}
 	stages {
 		stage('Build') {
 			steps {
