@@ -1,0 +1,23 @@
+{
+  "name": "@mayquanxi/nodejs-build-npm-package",
+  "version": "1.0.0",
+  "description": "nodejs webapps",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm link",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayquanxi/nodejs-build-npm-package.git"
+  },
+  "keywords": [
+    "nodejs-build-npm-package"
+  ],
+  "author": "mrA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayquanxi/nodejs-build-npm-package/issues"
+  },
+  "homepage": "https://github.com/mayquanxi/nodejs-build-npm-package#readme"
+}
