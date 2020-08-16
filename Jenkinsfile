@@ -2,6 +2,9 @@ pipeline {
 	agent {
 		label 'ubuntu18_jenkins_slave01'
 	}
+	environment {
+        	CI = 'true'
+	}
 	stages {
 		stage('Build') {
 			steps {
