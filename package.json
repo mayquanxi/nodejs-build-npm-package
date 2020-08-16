@@ -1,11 +1,12 @@
 {
   "name": "@mayquanxi/nodejs-build-npm-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nodejs webapps",
   "main": "app.js",
   "scripts": {
     "test": "npm link",
-    "start": "node app.js"
+    "start": "node app.js",
+    "stop": "pkill node"
   },
   "repository": {
     "type": "git",
