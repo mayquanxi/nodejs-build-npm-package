@@ -31,7 +31,6 @@ pipeline {
 				echo 'address apps: http://127.0.0.1:3000'
 				input message: 'Click link above to connect server and check apps for continuous or abort'
 				echo 'stop server apps'
-				sh 'npm stop'
 			}
 		}
 		stage('Production') {
