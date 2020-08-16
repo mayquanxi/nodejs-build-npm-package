@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs webapps",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayquanxi/nodejs-build-npm-package.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "mrMay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayquanxi/nodejs-build-npm-package/issues"
+  },
+  "homepage": "https://github.com/mayquanxi/nodejs-build-npm-package#readme"
+}
